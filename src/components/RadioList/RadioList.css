@@ -1,0 +1,21 @@
+.radio-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 10px 25px;
+  background-color: var(--white);
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.radio-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.radio-list__input {
+  margin: 0;
+}

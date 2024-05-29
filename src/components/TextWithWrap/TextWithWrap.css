@@ -1,0 +1,33 @@
+.text-with-wrap {
+  background-color: var(--white);
+  overflow: visible;
+  transform: translate(-50%, -50%);
+  height: 24px;
+  width: 100%;
+  display: inline-block;
+}
+
+.zero {
+  background-color: var(--zero);
+}
+.positive {
+  background-color: var(--success);
+}
+.negative {
+  background-color: var(--failure);
+}
+
+.text-with-wrap__text {
+  padding: 4px 11px;
+  margin: 0;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  box-sizing: border-box;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}

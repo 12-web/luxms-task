@@ -1,0 +1,19 @@
+.caption-list {
+  display: flex;
+  align-self: center;
+  gap: 47px;
+  margin-top: 20px;
+}
+
+.caption-list__item {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  gap: 9px;
+}
+
+.caption-list__rect {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
